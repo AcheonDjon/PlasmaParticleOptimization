@@ -86,16 +86,8 @@ This project models the energy of a system of charged particles (such as ions or
 ### Applications
 - This type of modeling is relevant in fields such as plasma physics, ion trap experiments, condensed matter physics, and materials science, where understanding the equilibrium positions of charged particles is important.
 
-## Suggestions for Improvement
 
-- Generalize arrangement logic for more than 2 particles.
-- Add input validation and error handling.
-- Improve documentation and code comments.
-- Modularize code for easier extension.
 
-## License
-
-Specify your license here (e.g., MIT, GPL, etc.).
 
 ## Contact
 
