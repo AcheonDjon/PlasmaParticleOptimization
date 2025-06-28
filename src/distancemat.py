@@ -1,15 +1,6 @@
 import numpy as np
 
 def compute_distance_matrix(points):
-    """
-    Compute the pairwise Euclidean distance matrix for a list of 2D or nD points.
-    
-    Parameters:
-        points (list of tuples or 2D np.array): e.g., [(x1, y1), (x2, y2), ...]
-    
-    Returns:
-        np.array: A square distance matrix (N x N)
-    """
     points = np.array(points)
     diff = points[:, np.newaxis, :] - points[np.newaxis, :, :]
     distance_matrix = np.linalg.norm(diff, axis=2)
