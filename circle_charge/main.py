@@ -1,5 +1,5 @@
 from sympy import symbols, diff, sin
-from energy import potential
+from gradientdescent.energy import potential
 from solver import find_roots,verify_roots
 from visualize_particles import visualize_particles
 from lenlen import coefficientgen

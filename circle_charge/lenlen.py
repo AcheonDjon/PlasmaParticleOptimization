@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from distancemat import compute_distance_matrix
+from gradientdescent.distancemat import compute_distance_matrix
 
 def generate_circle_points(n, radius=1):
     # Calculate angles for equally spaced points on the circle
