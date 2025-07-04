@@ -13,7 +13,7 @@ particle_volume = (4/3) * np.pi * particle_radius**3
 particle_mass = particle_density * particle_volume  # Particle mass 
 gas_viscosity = 1.8e-5    # Gas viscosity 
 particle_diameter = 2 * particle_radius # Particle diameter 
-gas_molecule_diameter = 0.37e-9 # Approximate diameter of air molecule
+gas_molecule_diameter = 0.37e-9 # diameter of air molecule
 g = 9.81 
 
 #Knudsen number
